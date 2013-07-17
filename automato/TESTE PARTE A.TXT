@@ -1,0 +1,121 @@
+Testes da Parte A
+
+T  I	<	>	N	OUTROS
+0(INI)	1
+1		4
+2				5
+3(FINAL)					  1
+4(FINAL)		2			  1	
+5					3	  2	
+
+
+Cadeia: TI,I,I<>,>,>,>N,I
+Estado atual 0 caracter atual T transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 caracter atual , transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 caracter atual , transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 caracter atual < transita para 2
+Estado atual 2 caracter atual > transita para 5
+Estado atual 5 caracter atual , transita para 2
+Estado atual 2 caracter atual > transita para 5
+Estado atual 5 caracter atual , transita para 2
+Estado atual 2 caracter atual > transita para 5
+Estado atual 5 caracter atual , transita para 2
+Estado atual 2 caracter atual > transita para 5
+Estado atual 5 caracter atual N transita para 3
+Estado atual 3 caracter atual , transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 Estado Final
+Cadeia aceita
+
+Cadeia: TI,I,I<>,>,>,>N,I,I,I
+Estado atual 0 caracter atual T transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 caracter atual , transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 caracter atual , transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 caracter atual < transita para 2
+Estado atual 2 caracter atual > transita para 5
+Estado atual 5 caracter atual , transita para 2
+Estado atual 2 caracter atual > transita para 5
+Estado atual 5 caracter atual , transita para 2
+Estado atual 2 caracter atual > transita para 5
+Estado atual 5 caracter atual , transita para 2
+Estado atual 2 caracter atual > transita para 5
+Estado atual 5 caracter atual N transita para 3
+Estado atual 3 caracter atual , transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 caracter atual , transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 caracter atual , transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 Estado Final
+Cadeia aceita
+
+Cadeia: TI,I,I<>N,I,I<>N
+Estado atual 0 caracter atual T transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 caracter atual , transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 caracter atual , transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 caracter atual < transita para 2
+Estado atual 2 caracter atual > transita para 5
+Estado atual 5 caracter atual N transita para 3
+Estado atual 3 caracter atual , transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 caracter atual , transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 caracter atual < transita para 2
+Estado atual 2 caracter atual > transita para 5
+Estado atual 5 caracter atual N transita para 3
+Estado atual 3 Estado Final
+Cadeia aceita
+
+Cadeia: TI<>,>N,I,I<>,>N,
+Estado atual 0 caracter atual T transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 caracter atual < transita para 2
+Estado atual 2 caracter atual > transita para 5
+Estado atual 5 caracter atual , transita para 2
+Estado atual 2 caracter atual > transita para 5
+Estado atual 5 caracter atual N transita para 3
+Estado atual 3 caracter atual , transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 caracter atual , transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 caracter atual < transita para 2
+Estado atual 2 caracter atual > transita para 5
+Estado atual 5 caracter atual , transita para 2
+Estado atual 2 caracter atual > transita para 5
+Estado atual 5 caracter atual N transita para 3
+Estado atual 3 caracter atual , transita para 1
+Estado atual 1 Estado nao final
+Cadeia nao aceita
+
+
+Cadeia: TI,I<>N,I<>N,I<>N,I
+Estado atual 0 caracter atual T transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 caracter atual , transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 caracter atual < transita para 2
+Estado atual 2 caracter atual > transita para 5
+Estado atual 5 caracter atual N transita para 3
+Estado atual 3 caracter atual , transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 caracter atual < transita para 2
+Estado atual 2 caracter atual > transita para 5
+Estado atual 5 caracter atual N transita para 3
+Estado atual 3 caracter atual , transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 caracter atual < transita para 2
+Estado atual 2 caracter atual > transita para 5
+Estado atual 5 caracter atual N transita para 3
+Estado atual 3 caracter atual , transita para 1
+Estado atual 1 caracter atual I transita para 4
+Estado atual 4 Estado Final
+Cadeia aceita
